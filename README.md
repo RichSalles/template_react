@@ -1,4 +1,4 @@
-# C2SIG - Sistema de Gestão Integrado
+# Template Dashboard React
 ## Uso
 
 1. Clone esse repositório
@@ -13,7 +13,7 @@
    ```
    npm start
    ```
-   Os arquivos estão no diretório [src](https://c2rio@dev.azure.com/c2rio/SIG/_git/SIG_REACT/src/).
+
 
 
 ## Estrutura de arquivos
@@ -26,7 +26,6 @@ c2tours-website-bondinho/
   node_modules/
   package.json
   public/
-    c2tours-favicon.png
     robots.txt
     manifest.json
     index.html
