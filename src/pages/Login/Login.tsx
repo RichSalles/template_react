@@ -2,8 +2,7 @@ import React from 'react';
 
 import './Login.scss';
 
-import logo from '../../assets/img/c2tours.svg';
-import bg01 from '../../assets/img/backgrounds/login-img-01.jpg'
+
 
 function Login() {
 
@@ -18,7 +17,7 @@ function Login() {
                 <div className="col-12 col-sm-12 col-md-6 bg-white valign left">
                     <div className="inner">
                         <div className="login-brand d-flex align-items-center justify-content-center">
-                            <img src={logo} alt="C2SIG" className="float-left" style={{ width: '250px' }} />
+                            <img src="" alt="Logo" className="float-left" style={{ width: '250px' }} />
                         </div>
                         <div className="text-center">
                             <h1 className="h4 mb-4 mt-4">Bem vindos!</h1>
@@ -43,7 +42,9 @@ function Login() {
                         </form>
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 valign right bg-login-image" id="random" style={{backgroundImage: `url(${bg01})`}}>
+                <div className="col-12 col-sm-12 col-md-6 valign right bg-login-image" id="random" 
+                // style={{backgroundImage: `url(${})`}}
+                >
         
                  </div>
             </div>
