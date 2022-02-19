@@ -21,7 +21,7 @@
 Após a criação, seu projeto deve ficar assim:
 
 ```
-c2tours-website-bondinho/
+template_react/
   README.md
   node_modules/
   package.json
