@@ -1,0 +1,56 @@
+@import "../../../assets/sass/variables.scss";
+
+.menu-level-1 *{
+    color: $primary;
+}
+
+.menu-level-1{
+    position: absolute;
+    top: 0;
+    left: 6.5rem;
+    background-color: #E9EAEE;
+    height: 100vh;
+}
+
+.submenu-title{
+    margin: 35px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submenu-title span{
+    font-size: 1.5rem;
+}
+
+.submenu li{
+    font-size: 18px;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.submenu li a{
+    width: calc(100% - 20px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.submenu li a:hover{
+    color: $primary;
+    background-color: #C3C8D1;
+}
+
+
+.submenu-title img{
+    cursor: pointer;
+}
+
+@media (max-width: 1400px){
+    .menu-level-1{    
+        left: 4rem;
+    }
+}

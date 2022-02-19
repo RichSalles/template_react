@@ -1,0 +1,113 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+// $theme-colors: (
+//     "info": tomato,
+//     "danger": teal
+// )
+
+/* import bootstrap to set changes */
+
+@import "_variables.scss";
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+.text-right{
+    text-align: right !important;
+}
+
+.border-top-secondary{
+  border-top: 2px solid $secondary;
+}
+
+.border-top-primary{
+  border-top: 2px solid $primary;
+}
+
+.bg-light {
+    background-color: $gray-100 !important;
+}
+
+
+// FORM
+
+.form-group{
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.label-txt{ 
+    position: absolute;
+    top: 8px;
+    padding-left: 10px;
+    transition: ease .3s;
+    color: #6c757d;
+}
+
+.label-active{ 
+    top: -17px;
+    padding-left: 0px;
+    font-size: 0.7rem;
+    color: #162c59;
+}
+
+input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
+    width: 100%;
+}
+
+// MARGIN
+
+.mr-2, .mx-2{
+    margin-right: .5rem !important;
+}
+
+.mr-3, .mx-3{ 
+    margin-right: 1rem !important;
+}
+
+.ml-3, .mx-3{ 
+    margin-left: 1rem !important;
+}
+
+// PADDING
+
+.pl-3, .px-3{ 
+    padding-left: 1rem !important;
+}
+
+// FLOAT
+.float-left{ 
+    float: left !important;
+}
+
+
+// BUTTONS
+
+.btn-circle{
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+
+// BACKGROUND 
+
+.bg-black-10{
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+/// List Style
+
+ul, ol, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+

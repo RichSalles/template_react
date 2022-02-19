@@ -1,0 +1,59 @@
+// .bg-register-image {
+//     background: url("../img/login/login-img-02.jpg");
+//     background-position: center;
+//     background-size: cover;
+//   }
+  
+//   .bg-password-image {
+//     background: url("../img/login/login-img-02.jpg");
+//     background-position: center;
+//     background-size: cover;
+//   }
+  
+  #random{  
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;  
+  }
+  
+  .login-brand img {
+    width: 80px;
+  }
+  
+  .brand-text {
+    font-size: 32px !important;
+    font-weight: bold;
+  }
+  
+  .split-screen .right, .split-screen .left {
+      position: relative;
+      min-height: 1px;
+      height: 100vh;
+      padding: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .split-screen .right, .split-screen .left {
+      float: left;
+      width: 50%;
+    }
+  }
+  
+  .valign {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+  }
+  
+  .split-screen .left .inner, .split-screen .right .inner {
+      width: 520px;
+      margin: 0 auto;
+      padding: 40px;
+      position: relative;
+  }
+  

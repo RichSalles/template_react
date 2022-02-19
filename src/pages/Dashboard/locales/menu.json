@@ -1,0 +1,223 @@
+{
+    "menu": {
+        "default": [
+            {
+                "name": "Dashboard",
+                "icon": "fal fa-fw fa-tachometer-alt",
+                "id": "main-dashboard",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Produtos",
+                "icon": "fal fa-fw fa-ticket-alt",
+                "id": "product",
+                "href": "#",
+                "type": "link",
+                "submenu": [
+                    {
+                        "name": "Listar Produtos",
+                        "id": "main-dashboard",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": [
+                            {
+                                "name": "Tours",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Tickets Carnaval",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Bilhete/Passe",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Transfer",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "sub-title",
+                                "submenu": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Adicionar Produtos",
+                        "id": "main-dashboard",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": [
+                            {
+                                "name": "Listar Produtos",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Adicionar Produtos",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Editar Produtos",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Resources",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "sub-title",
+                                "submenu": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Editar Produtos",
+                        "id": "main-dashboard",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": [
+                            {
+                                "name": "Listar Produtos",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Adicionar Produtos",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Editar Produtos",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Resources",
+                                "id": "main-dashboard",
+                                "href": "#",
+                                "type": "sub-title",
+                                "submenu": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Resources",
+                        "id": "main-dashboard",
+                        "href": "#",
+                        "type": "sub-title",
+                        "submenu": []
+                    }
+                ]
+            },
+            {
+                "name": "Reservas",
+                "icon": "fal fa-fw fa-table",
+                "id": "books",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Operações",
+                "icon": "fal fa-fw fa-clock",
+                "id": "operation",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Transfers",
+                "icon": "fal fa-fw fa-bus",
+                "id": "transfer",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Site",
+                "icon": "fal fa-fw fa-globe",
+                "id": "site",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Vendas",
+                "icon": "fal fa-handshake",
+                "id": "sales",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Administrativo",
+                "icon": "fal fa-fw fa-cog",
+                "id": "admin",
+                "href": "#",
+                "type": "link",
+                "submenu": [
+                    {
+                        "name": "Listar Produtos 2",
+                        "id": "main-dashboard",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": []
+                    },
+                    {
+                        "name": "Adicionar Produtos",
+                        "id": "main-dashboard",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": []
+                    },
+                    {
+                        "name": "Editar Produtos",
+                        "id": "main-dashboard",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": []
+                    },
+                    {
+                        "name": "Resources",
+                        "id": "main-dashboard",
+                        "href": "#",
+                        "type": "sub-title",
+                        "submenu": []
+                    }
+                ]
+            },
+            {
+                "name": "Financeiro",
+                "icon": "fal fa-fw fa-dollar-sign",
+                "id": "finance",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            }
+        ]
+    }
+}

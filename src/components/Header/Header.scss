@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #FE340C;
+}
+
+.header h1{
+    font-size: 1.4rem;
+    max-width: 150px;
+    margin: 17px 0 17px 20px;
+    text-align: left;
+    color: #707070;
+}
+
+.header .header-search{
+    margin-right: 20px;
+}
+
+.header .input-search{
+    min-width: 350px;
+}
+
+.header .reservation{
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.header button.new-reservation{
+    background-color: #163264;
+    color: white;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    min-height: 50px;
+}
+
+.header .icon-nav-search.glass{
+    margin: 0 40px;
+}
+
+.header .profile{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header .user-name{
+    margin-right: 10px;
+}

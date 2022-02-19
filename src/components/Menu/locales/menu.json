@@ -1,0 +1,238 @@
+{
+    "menu": {
+        "default": [
+            {
+                "name": "Dashboard",
+                "icon": "tachometer-alt",
+                "id": "menu-dashboard",
+                "href": "/dashboard",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Produtos",
+                "icon": "ticket",
+                "id": "menu-products",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Reservas",
+                "icon": "ballot-check",
+                "id": "menu-reservations",
+                "href": "#",
+                "type": "link",
+                "submenu": [
+                    {
+                        "name": "Listar Reservas",
+                        "id": "list-reservation",
+                        "href": "/reservations",
+                        "type": "link",
+                        "submenu": []
+                        }
+                ]
+            },
+            {
+                "name": "Operações",
+                "icon": "clock",
+                "id": "menu-operations",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Transfers",
+                "icon": "car-bus",
+                "id": "menu-reservations",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Site",
+                "icon": "globe",
+                "id": "menu-website",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Venda",
+                "icon": "donate",
+                "id": "menu-sale",
+                "href": "#",
+                "type": "link",
+                "submenu": []
+            },
+            {
+                "name": "Administrativo",
+                "icon": "users-cog",
+                "id": "menu-dashboard",
+                "href": "#",
+                "type": "link",
+                "submenu": [
+                    {
+                        "name": "Clientes",
+                        "id": "menu-agent",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": [
+                            {
+                            "name": "Listar Clientes",
+                            "id": "list-agent",
+                            "href": "/partners",
+                            "type": "link",
+                            "submenu": []
+                            },
+                            {
+                                "name": "Novo Cliente",
+                                "id": "add-agent",
+                                "href": "/partners/add-partners",
+                                "type": "link",
+                                "submenu": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fornecedores",
+                        "id": "menu-supplier",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": [
+                            {
+                                "name": "Listar Fornecedores",
+                                "id": "list-agent",
+                                "href": "/suppliers",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Novo Fornecedores",
+                                "id": "add-agent",
+                                "href": "/suppliers/add-suppliers",
+                                "type": "link",
+                                "submenu": []
+                            }
+
+                        ]
+                    },{
+                        "name": "Usuários",
+                        "id": "menu-users",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": [
+                            {
+                                "name": "Listar Usuários",
+                                "id": "list-users",
+                                "href": "/users",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Novo Usuários",
+                                "id": "add-user",
+                                "href": "/users/new-users",
+                                "type": "link",
+                                "submenu": []
+                            }
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Financeiro",
+                "icon": "dollar-sign",
+                "id": "menu-finance",
+                "href": "#",
+                "type": "link",
+                "submenu": [
+                    {
+                        "name": "Parâmetros",
+                        "id": "menu-parameters",
+                        "href": "#",
+                        "type": "link",
+                        "submenu": [
+                            {
+                                "name": "Contas Correntes",
+                                "id": "flags",                                
+                                "type": "subtitle",
+                                "submenu": []
+                            }, 
+                            {
+                                "name": "Listar Contas Correntes",
+                                "id": "accounts",
+                                "href": "/accounts",
+                                "type": "link",
+                                "submenu": []
+                            }, 
+                            {
+                                "name": "Nova Conta Corrente",
+                                "id": "new-accounts",
+                                "href": "/accounts/add-accounts",
+                                "type": "link",
+                                "submenu": []
+                            },
+                            {
+                                "name": "Adquirentes",
+                                "id": "flags",                                
+                                "type": "subtitle",
+                                "submenu": []
+                            }, 
+                            {
+                                "name": "Listar Adquirentes",
+                                "id": "merchants",
+                                "href": "/merchants",
+                                "type": "link",
+                                "submenu": []
+                            }, 
+                            {
+                                "name": "Novo Adquirente",
+                                "id": "new-merchants",
+                                "href": "/merchants/add-merchants",
+                                "type": "link",
+                                "submenu": []
+                            }, 
+                            {
+                                "name": "Bandeiras",
+                                "id": "flags",                                
+                                "type": "subtitle",
+                                "submenu": []
+                            }, 
+                            {
+                                "name": "Bandeiras",
+                                "id": "flags",
+                                "href": "/merchantflags",
+                                "type": "link",
+                                "submenu": []
+                            }, 
+                            {
+                                "name": "Nova Bandeira",
+                                "id": "new-flags",
+                                "href": "/merchantflags/add-merchantflags",
+                                "type": "link",
+                                "submenu": []
+                            }                            
+                        ]
+                    },
+                    {
+                        "name": "Contas a Pagar",
+                        "id": "menu-bills-to-pay",
+                        "href": "/bills-to-pay",
+                        "type": "link",
+                        "submenu": []
+                    },
+                    {
+                        "name": "Contas a Receber",
+                        "id": "menu-bills-to-receive",
+                        "href": "/bills-to-receive",
+                        "type": "link",
+                        "submenu": []
+                    }
+                ]
+            }      
+            
+        ]
+    }
+}
